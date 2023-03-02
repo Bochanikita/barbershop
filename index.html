@@ -162,9 +162,24 @@
     <section class="enter-form">
         <h2>Личный кабинет</h2>
         <p class="enter-form-info">Введите свой логин и пароль.</p>
-        <!--Место для формы-->
-        <a class="button" href="#">Войти</a>
-        <span class="enter-form-close">x</span>
+        <form action="#" method="post">
+            <p>
+                <input id="login-email" type="email" name="email" placeholder="EMAIL@EXAMPLE.COM">
+            </p>
+            <p>
+                <input id="login-password" type="password" name="password" placeholder="12345678">
+            </p>
+            <p>
+                <input id="login-checkbox" type="checkbox" name="remember" checked>
+                <label for="login-checkbox">Запомните меня</label>
+            </p>
+            <p>
+                <a href="#">Я забыл пароль!</a>
+            </p>
+            <p>
+                <button type="submit">Войти</button>
+            </p>
+        </form>
     </section>
 
     <section class="map-mode">
