@@ -23,7 +23,7 @@ body {
     color: var(--basic-white);
     text-transform: uppercase;
     background-color: var(--basic-black);
-    background-image: url("..img/bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -72,3 +72,17 @@ img {
     background-color: var(--basic-extra-dark);
 }
 
+/* Index columns */
+
+.index-columns {
+    color: var(--basic-black);
+    background-color: var(--basic-extra-light);
+    background-image: url("../img/pattern-light.jpg");
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
+}
+
+.index-columns h2{
+    font-size: 30px;
+    line-height: 42px;
+}
