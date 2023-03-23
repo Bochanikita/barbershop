@@ -45,3 +45,7 @@ img {
     color: var(--basic-white);
     background-color: transparent;
 }
+
+.main-navigation-wrapper {
+    background-color: var(--basic-black);
+}
